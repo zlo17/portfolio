@@ -1,0 +1,21 @@
+start = '''
+
+'''
+print("You decide to take up babysitting, you think 'hey it's going to be easy!'. You are babysitting 5 year old James, and decide to take him to the park.Choose your options wisely every choice can gain or loose happy points your goal is to have at least 10 happy points by the end of the day")
+print( "do you want to drive or walk to the park? Type your answer")
+user_input = input()
+happy_points = 0
+if user_input == "drive":
+    print("Do you want to take the highway or the residential route? Type 'highway' for highway and 'residential' for residential.")
+    if user_input == "highway":
+        print("James likes being outside so you loose 2 happy pointsYou have finally arrived at the park! Now is your time to gain more happy points! You only have time to play with 4 park equiptments so choose wisely. Type 'east','west', or 'north' to choose the side of the park to start from")
+    if user_input == "residential":
+        print("James likes being outside and this rote takes too long, loose 3 happy points. You have finally arrived at the park! Now is your time to gain more happy points! You only have time to play with 4 park equiptments so choose wisely. Type 'east','west', or 'north' to choose the side of the park to start from")
+if user_input == "walk":
+    print(" Do you want to tresspass for a quicker route or walk safely on the sidewalk? Type 'tresspass' to go the short route or 'sidewalk' for a longer but safe route")
+    if user_input == "tresspass":
+        print("James doesn't like breaking the  rules, loose 1 happy point. You have finally arrived at the park! Now is your time to gain more happy points! You only have time to play with 4 park equiptments so choose wisely. Type 'east','west', or 'north' to choose the side of the park to start from")
+    if user_input == "sidewalk":
+        print("The walk was a bit long but James is happy! Gain 1 happy point. You have finally arrived at the park! Now is your time to gain more happy points! You only have time to play with 4 park equiptments so choose wisely. Type 'east','west', or 'north' to choose the side of the park to start from")
+if user_input == "east":
+    print("Do you want to play with te swing or seasaw?")
